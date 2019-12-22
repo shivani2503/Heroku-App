@@ -17,6 +17,7 @@ class Migration(migrations.Migration):
             name='Greeting',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('random_string', "Hey,here is the information\n",)
                 ('when', models.DateTimeField(auto_now_add=True, verbose_name=b'date created')),
             ],
         ),
